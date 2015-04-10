@@ -1,6 +1,10 @@
 html,body {
 	font-family: 'Roboto Slab', serif;
 	height: 100%;
+	width: 100%;
+	display: table;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -46,7 +50,13 @@ nav img {
 	text-align: center;
 	color: #fff;
 	font-size: 42px;
-	margin-top: 10%;
+	vertical-align: middle;
+	padding: 30px;
+}
+
+.content {
+	display: inline-block;
+	padding: 50px;
 }
 
 #main p {

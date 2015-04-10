@@ -72,10 +72,17 @@ nav img {
 }
 
 .register {
-	margin-top: 10px;
-	text-decoration: none;
+	margin-top: 30px;
 }
 
 .register a {
 	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	background-color: #ff7b00;
+	border-radius: 5px;
+}
+
+.register a:hover {
+	background-color: #d36200; 
 }

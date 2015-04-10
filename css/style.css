@@ -19,7 +19,6 @@ nav {
 	text-align: right;
 	height: 100px;
 	margin: auto;
-	margin-top: 10px;
 	line-height: 100px;
 }
 
@@ -27,6 +26,7 @@ nav ul li {
 	display: inline-block;
 	list-style-type: none;
 	margin-left: 25px;
+	margin-top: 10px;
 }
 
 nav ul li a {
@@ -46,4 +46,18 @@ nav img {
 	text-align: center;
 	color: #fff;
 	font-size: 42px;
+	margin-top: 10%;
+}
+
+#main p {
+	margin: 0;
+}
+
+.date {
+	font-size: 20px;
+}
+
+.register {
+	margin-top: 10px;
+	text-decoration: none;
 }

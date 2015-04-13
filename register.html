@@ -1,0 +1,37 @@
+---
+layout: register
+title: Register
+extra_css:
+  - register.css
+---
+<nav>
+	<ul>
+		<li><a href="javascript: history.go(-1)">Go back</a></li>
+	</ul>
+</nav>
+<div id="main">
+	<a href = "index.html"><img src="img/logo.png"></a>
+	<form action="//formspree.io/aaniruddh99@gmail.com" method="POST">
+    	<input type="text" name="fname" class="textbox" placeholder="First name"><br>
+    	<input type="text" name="lname" class="textbox" placeholder="Last name"><br>
+    	<input type="email" name="_replyto" class="textbox" placeholder="Email Address"><br>
+    	<input type="tel" pattern="\d{8}" name="name" class="textbox" placeholder="Phone number (8 digits)"><br>
+		<select class="drop_down">
+			<option value="" disabled="disabled" selected="selected">Please select your class</option>
+			<option value="8IG">8 IGCSE</option>
+			<option value="9IG">9 IGCSE</option>
+			<option value="10IG">10 IGCSE</option>
+			<option value="IB1">IB Yr 1</option>
+			<option value="IB2">IB Yr 2</option>
+			<option value="8CB">8 CBSE</option>
+			<option value="9CB">9 CBSE</option>
+			<option value="10CB">10 CBSE</option>
+			<option value="11CB">11 CBSE</option>
+			<option value="12CB">12 CBSE</option>
+		</select><br>
+		<input type="checkbox" name="veg" value="Vegetarian">Vegetarian</input>
+		<input type="checkbox" name="nveg" value="Non Vegetarian">Non Vegetarian</input><br>
+		<input type="text" name="NRIC" class="textbox" placeholder="NRIC"><br>
+		<input type="submit" value="Register" class="button">
+	</form>
+</div>

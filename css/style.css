@@ -4,20 +4,10 @@ html,body {
 	width: 100%;
 }
 
-body {
-	background-image: url(../img/bg.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: #464646;
-}
-
 nav {
 	display: block;
 	overflow: hidden;
 	width: 70%;
-	text-align: right;
 	height: 100px;
 	margin: auto;
 	line-height: 100px;

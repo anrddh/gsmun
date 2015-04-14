@@ -7,7 +7,7 @@
 }
 
 #left {
-	width: 45%;
+	width: 50%;
 	float: left;
 	background-image: url(../img/bg2.jpg);
 	background-position: center center;
@@ -22,12 +22,12 @@
 
 #right {
 	color: #bbb;
-	padding-top: 80px;
-	padding-left: 200px;
-	margin-left: 40%;
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
+	width: 50%;
+	float: right;
+	margin-left: 50%;
 }
 
 #right h1 {
@@ -45,6 +45,30 @@
 	text-decoration: none;
 	border-bottom: 1px dotted #ddd;
 	color: #bbb;
+}
+
+#container {
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	margin-top: -250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	zoom: 1;
+	display*: inline;
+	float: right;
+	right: 50%;
+}
+
+#inner {
+	float:left;
+	right: -50%;
+	position: relative;
+}
+
+.clear {
+	clear: both;
 }
 
 form {
@@ -65,13 +89,14 @@ form {
 }
 
 .wrap {
-	margin: 0;
 	text-align: center;
+	width: 100%;
+	margin-bottom: 0px;
 }
 
 .button {
 	width: 410px;
-	height: 50px;
+	height: 40px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.1em;
 	padding: 5px;
@@ -87,5 +112,50 @@ form {
 }
 
 .clear {
+	content:"";
+    display: table;
 	clear: both;
+}
+
+@media only screen and (max-device-width: 1200px) {
+	#left {
+		width: 40%;	
+	}
+
+	#right {
+		margin-left: 40%;
+		width: 60%;
+	}
+}
+
+@media (max-device-width: 800px) {
+	#left {
+		display: none;
+		width: 0%;
+	}
+
+	#right {
+		margin: 0;
+		width: 100%;
+	}
+}
+
+@media (max-device-width: 480px) {
+	#left {
+		display: none;
+		width: 0%;
+	}
+
+	#right {
+		margin: 0;
+		width: 100%;
+	}
+
+	.textbox {
+		width: 90%;
+	}
+
+	.button {
+		width: 90%;
+	}
 }

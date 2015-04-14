@@ -10,18 +10,23 @@ extra_font:
 	<div id="left">
 	</div>
 	<div id="right">
-		<h1>Register now</h1>
-		<p>It only takes a few seconds. If you've already registered, go back to the <a href="index.html">homepage</a>.</p>
-		<form action="//formspree.io/aaniruddh99@gmail.com" method="POST">
-	    	<input type="text" name="fname" class="textbox" placeholder="First name" required><br>
-	    	<input type="text" name="lname" class="textbox" placeholder="Last name" required><br>
-	    	<input type="email" name="_replyto" class="textbox" placeholder="Email Address" requires><br>
-	    	<input type="tel" pattern="\d{8}" name="name" class="textbox" placeholder="Phone number (8 digits)" required><br>
-			<div class="wrap"><input type="radio" name="veg" value="Vegetarian" class="radio">Vegetarian</input>
-			<input type="radio" name="veg" value="Non Vegetarian" class="radio">Non Vegetarian</input></div><br>
-			<input type="text" name="NRIC" class="textbox" placeholder="NRIC"><br>
-			<input type="submit" value="Register" class="button">
-		</form>
+		<div id="container">
+			<div id="inner">
+				<h1>Register now</h1>
+				<p>It only takes a few seconds. If you've already registered, go back to the <a href="index.html">homepage</a>.</p>
+				<form action="//formspree.io/aaniruddh99@gmail.com" method="POST">
+			    	<input type="text" name="fname" class="textbox" placeholder="First name" required><br>
+			    	<input type="text" name="lname" class="textbox" placeholder="Last name" required><br>
+			    	<input type="email" name="_replyto" class="textbox" placeholder="Email Address" required><br>
+			    	<input type="tel" pattern="\d{8}" name="name" class="textbox" placeholder="Phone number (8 digits)" required><br>
+					<div class="wrap"><input type="radio" name="veg" value="Vegetarian" class="radio">Vegetarian</input>
+					<input type="radio" name="veg" value="Non Vegetarian" class="radio">Non Veg</input></div><br>
+					<input type="text" name="NRIC" class="textbox" placeholder="NRIC"><br>
+					<input type="submit" value="Register" class="button">
+				</form>
+			</div>
+		</div>
+		<div class="clear"></div>
 	</div>
 	<div class="clear"></div>
 </div>

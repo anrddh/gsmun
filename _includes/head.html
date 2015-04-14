@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link href='//fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    {% for font_name in page.extra_font %}
+        <link href='http://fonts.googleapis.com/css?family={{ font_name }}' rel='stylesheet' type='text/css'>
+    {% endfor %}
     {% for css_name in page.extra_css %}
     	<link rel="stylesheet" href="css/{{ css_name }}">
 	{% endfor %}
